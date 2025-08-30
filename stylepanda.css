@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+.container>.underbutton{
+    border: 1px solid palegreen;
+ 
+    height: 70px;
+ 
+}
+
+
+.container>.navbar{
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+background-color: rgb(255, 255, 255);
+box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+padding: 0 30px;
+height: 8%;
+}
+.container>.navbar>.head-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+         margin: 45px;
+    }
+    
+}
+#img{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    object-fit: contain;
+    height: auto;
+}
+.container>.navbar>.button{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.button button{
+white-space: nowrap; 
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.button button:nth-child(2) {
+    border: none;
+    color: white;
+background-color: #D70F64;
+}
+.container>.navbar>.drop-link{
+      position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container>.navbar>.drop-link i {
+  position: absolute;
+  left: 10px;          
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #333;
+}
+.drop-link select {
+  border: none;
+  border-radius: 10px;
+  padding-left: 30px;  
+  height: 35px;
+  font-size: 16px;
+  background-color: white;
+  transition: background-color 0.3s ease; 
+}
+
+.drop-link select:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: #56565630; 
+}
+
+#aa{
+
+         padding: 9px;
+    border-radius: 10px;
+}
+#aa:hover{
+ border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color:  #56565630;  
+  transition: background-color 0.3s ease;
+}
+.navbar>.bage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #56565630;
+     border-radius: 50%;
+     color: #56565630;
+     margin-right: 110px;
+     width: 55px;
+     height: 60%;
+}
+.newlist{
+    display: flex;
+    gap: 10px;
+}
+
+.list{
+    border: 1px solid black;
+    width: 20%;
+    margin-left: 3%;
+    border-radius: 10px;
+    padding-left: 15px;
+    h1{
+        font-size: 23px ;
+    }
+}
+#h2{
+    font-size: 17px;
+}
+#radio{
+    height: 17px;
+    width: 17px;
+}
